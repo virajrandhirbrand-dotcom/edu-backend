@@ -61,7 +61,7 @@ let isconnected = false;
 async function connectToMongoDB() {
 try {
     await mongoose.connect(process.env.MONGO_URI, {
-        useNewUrlparser: true, // Keep trying to send operations for 5 seconds
+        useNewUrlParser: true, // Keep trying to send operations for 5 seconds
         useUnifiedTopology: true, // Close sockets after 45 seconds of inactivity
     });
     isconnected = true;
