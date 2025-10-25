@@ -12,7 +12,8 @@
     "vercel-start": "node server.js",
     "build": "echo 'No build step required'",
     "deploy": "node deploy.js",
-    "vercel-build": "node deploy.js"
+    "vercel-build": "node deploy.js",
+    "test-connection": "node test-connection.js"
   },
   "keywords": ["education", "backend", "api", "nodejs", "express"],
   "author": "",
