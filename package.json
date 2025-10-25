@@ -13,7 +13,8 @@
     "build": "echo 'No build step required'",
     "deploy": "node deploy.js",
     "vercel-build": "node deploy.js",
-    "test-connection": "node test-connection.js"
+    "test-connection": "node test-connection.js",
+    "test-endpoints": "node test-endpoints.js"
   },
   "keywords": ["education", "backend", "api", "nodejs", "express"],
   "author": "",
